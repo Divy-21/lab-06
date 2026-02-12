@@ -54,7 +54,7 @@ public class CityList {
      * @throws IllegalArgumentException
      *      The city is not in the list
      */
-    public void deleteCity(City city) {
+    public void delete(City city) {
         if (!cities.contains(city)) {
             throw new IllegalArgumentException();
         }
